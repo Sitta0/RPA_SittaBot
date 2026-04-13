@@ -1,0 +1,35 @@
+# Credenciais e configuração local 
+# NUNCA versione o config.ini real — ele contém e-mail e senha.
+config.ini
+ 
+# Artefatos gerados pelo bot
+*.csv
+erro.log
+sittabot_edge_profile/
+ 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.spec
+*.exe
+ 
+# Ambientes virtuais 
+.venv/
+venv/
+env/
+ 
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+ 
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
